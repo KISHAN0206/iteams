@@ -20,6 +20,7 @@ class _HomePageState extends State<HomePage> {
     loadData();
   }
 
+
   loadData() async {
     final catalogJson =
         await rootBundle.loadString("assets/files/catalog.json");
